@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="shareTouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3D AppIcon Quick Action Demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ax-1A-iJ5">
+                                <rect key="frame" x="87" y="444.5" width="240" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8ax-1A-iJ5" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="AQT-9S-OEs"/>
+                            <constraint firstItem="8ax-1A-iJ5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="HZ1-r0-jC3"/>
+                            <constraint firstItem="8ax-1A-iJ5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="stG-BQ-1xt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113.04347826086958" y="-27.455357142857142"/>
+        </scene>
+        <!--Run View Controller-->
+        <scene sceneID="gCQ-g6-DIG">
+            <objects>
+                <viewController storyboardIdentifier="runVCC" id="i2A-ih-48T" customClass="runViewController" customModule="shareTouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Fb-5f-qfD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nikeplus" translatesAutoresizingMaskIntoConstraints="NO" id="aS6-YA-nDE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LiW-Ar-jFc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aS6-YA-nDE" firstAttribute="leading" secondItem="LiW-Ar-jFc" secondAttribute="leading" id="9OE-SX-aUZ"/>
+                            <constraint firstItem="aS6-YA-nDE" firstAttribute="top" secondItem="3Fb-5f-qfD" secondAttribute="top" id="IoE-9H-oYQ"/>
+                            <constraint firstItem="LiW-Ar-jFc" firstAttribute="trailing" secondItem="aS6-YA-nDE" secondAttribute="trailing" id="lBg-7x-Mo4"/>
+                            <constraint firstAttribute="bottom" secondItem="aS6-YA-nDE" secondAttribute="bottom" id="yHb-gD-okQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9s4-RA-gU7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="807" y="-27"/>
+        </scene>
+        <!--Scan View Controller-->
+        <scene sceneID="6HO-5e-Bcu">
+            <objects>
+                <viewController storyboardIdentifier="scanVCC" id="DD2-fw-b7l" customClass="scanViewController" customModule="shareTouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uQ2-XC-zAY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wechat" translatesAutoresizingMaskIntoConstraints="NO" id="wz5-Pa-u1g">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Izv-dG-CZT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wz5-Pa-u1g" firstAttribute="leading" secondItem="Izv-dG-CZT" secondAttribute="leading" id="FW3-Rl-3dC"/>
+                            <constraint firstAttribute="bottom" secondItem="wz5-Pa-u1g" secondAttribute="bottom" id="agk-ab-RUh"/>
+                            <constraint firstItem="Izv-dG-CZT" firstAttribute="trailing" secondItem="wz5-Pa-u1g" secondAttribute="trailing" id="aiQ-Em-CjA"/>
+                            <constraint firstItem="wz5-Pa-u1g" firstAttribute="top" secondItem="uQ2-XC-zAY" secondAttribute="top" id="uYo-yT-nGq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rLx-VP-B0t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1529" y="-27"/>
+        </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="ym4-R8-y8a">
+            <objects>
+                <viewController storyboardIdentifier="settingVCC" id="TkX-pi-0eG" customClass="settingViewController" customModule="shareTouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vfg-8C-Uft">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="setting" translatesAutoresizingMaskIntoConstraints="NO" id="6a8-Y4-vgL">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="632-YZ-tnY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="6a8-Y4-vgL" secondAttribute="bottom" id="CSe-vl-2pF"/>
+                            <constraint firstItem="6a8-Y4-vgL" firstAttribute="top" secondItem="vfg-8C-Uft" secondAttribute="top" id="ZDj-mF-QwO"/>
+                            <constraint firstItem="632-YZ-tnY" firstAttribute="trailing" secondItem="6a8-Y4-vgL" secondAttribute="trailing" id="pgF-rT-2T2"/>
+                            <constraint firstItem="6a8-Y4-vgL" firstAttribute="leading" secondItem="632-YZ-tnY" secondAttribute="leading" id="rBf-C6-xDB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QGS-rT-FQK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2232" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nikeplus" width="375" height="667"/>
+        <image name="setting" width="375" height="667"/>
+        <image name="wechat" width="375" height="667"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
